@@ -4,8 +4,8 @@
   "description": "",
   "main": "indexnpm.js",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /build-site-demo/"
+    "dev": "parcel profirem.com.ua/*.html",
+    "build": "parcel build profirem.com.ua/*.html --public-url /build-site-demo/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "sass": "^1.43.3"
   },
   "dependencies": {
+    "jquery": "^3.6.0",
+    "lazyload": "^2.0.0-rc.2",
     "lodash.debounce": "^4.0.8",
     "notiflix": "^3.1.0",
     "src": "^1.1.2"

@@ -1,6 +1,6 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
-import SEARCH from './js/fetchCountries.js';
+import SEARCH from './js/fetchCountries.js.js';
 import { Notify } from 'notiflix';
 import oneCountryTpl from './js/one-country-tpl.hbs';
 import allCountriesTpl from './js/all-countries.hbs';
