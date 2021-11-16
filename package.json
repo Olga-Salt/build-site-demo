@@ -4,8 +4,8 @@
   "description": "",
   "main": "indexnpm.js",
   "scripts": {
-    "dev": "parcel profirem.com.ua/*.html",
-    "build": "parcel build profirem.com.ua/*.html --public-url /build-site-demo/"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /build-site-demo/"
   },
   "repository": {
     "type": "git",
